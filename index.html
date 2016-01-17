@@ -76,13 +76,43 @@
 
     <!-- Header -->
     <header>
-         <div class="container">
+        <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Hi, I'm Leo</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-             <!--   <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
+                <div id="visitorNameQRow" class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="intro-heading">Hello, what is your name?</div>
+                    </div>
+                </div>
+                <div id="visitorNameFormRow" class="row">
+                    <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <form role="form" id="visitorNameForm" class="text-center">
+                                <div class="form-group">
+                                    <label for="visitorNameForm"></label>
+                                    <input id="visitorNameInput" type="text" class="form-control input-transparent text-center" maxlength="15">
+                                </div>
+                                <input type="submit" style="display: none;">
+                            </form>
+                        </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="greetMessage1" class="intro-heading" style="display: none">Nice to meet you, </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="greetMessage2" class="intro-heading text-primary" style="display: none">Stranger</div>
+                    </div>
+                </div>
+                <div id="headerMoreButton" class="row header-button-hidden">
+                    <div class="col-lg-12">
+                        <a href="#skills" class="page-scroll btn btn-xl">More about me</a>
+                    </div>
+                </div>
             </div>
-        </div> 
+        </div>
     </header>
 
     <!-- About Section -->
