@@ -1,455 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Identity by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="html5up-identity/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="html5up-identity/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
 
-<head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Leo Yue">
-    
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="html5up-identity/images/avatar.jpg" alt="" /></span>
+							<h1>Jane Doe</h1>
+							<p>Senior Psychonautics Engineer</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="#" class="fa-twitter">Twitter</a></li>
+								<li><a href="#" class="fa-instagram">Instagram</a></li>
+								<li><a href="#" class="fa-facebook">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
 
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
 
-    <title>Leo Yue</title>
+			</div>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Leo Yue</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#experience">Experience</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">Leo Yue</div>
-                <div class="intro-lead-in">University of Waterloo</div>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-<section id="about"  class=" about-section text-center">
-    <div class = " container content-section" style = "padding-bottom: 100px">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class ="col-md-4" style = "padding-bottom: 50px">
-                        <br><br><br>
-                        <img src="img/logos/leoyue.jpg" id = "profile-pic" class="img-circle img-responsive center-block">
-                    </div>
-                    <div class="col-md-8">
-                        <h2>About Me</h2>
-                        <br>
-                        <font size="4">Hey, I'm Leo. I am a third year engineering student at the University of Waterloo. I enjoy approaching problems from different perspectives and making data-driven decisions. I love a good challenge and I'm not afraid to take risks.</font>
-                        <br>
-                        <br>
-                        <br>
-                        <font size="4">I built this website as an area for my personal and professional presence on the web. I welcome you to explore it and get to know me a little!</font>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <!-- Projects Grid Section -->
-    <section id="projects" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Projects</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                        <!--        <i class="fa fa-plus fa-3x"></i> -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/florence.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Personal Website</h4>
-                        <p class="text-muted">Web Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                          <!--      <i class="fa fa-plus fa-3x"></i> -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/blackberry2.jpg" class="img-responsive" alt="" height="200" width="300">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Digital Footprint</h4>
-                        <p class="text-muted">BlackBerry Hackathon</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                       <!--         <i class="fa fa-plus fa-3x"></i> -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ontario.jpg" class="img-responsive" alt="" height="200" width="300">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>UInfo</h4>
-                        <p class="text-muted">Database Project</p>
-                    </div>
-                </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Experience</h2>
-                    <div class="col-md-5">
-                    </div>
-                    <div class="col-md-2 heading-underline">
-                    </div>
-                    <div class="col-md-5">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li class="timeline-image">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/portfolio/tesla.JPG" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Program Manager, Tesla</h4>
-                                    <h4 class="subheading">January 2017 - April 2017</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        Working with data!
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/portfolio/zic7.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Business Systems Analyst, Zenith Insurance Company</h4>
-                                    <h4 class="subheading">May 2016 - August 2016</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        I owned the testing components of a large scale systems implementation.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/portfolio/deloitte3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Business Analyst, Deloitte</h4>
-                                    <h4 class="subheading">September 2015 - December 2015</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        I worked in an agile scrum process, going from user requirements to high-fidelity mockups.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/portfolio/generalmotors2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Group Leader, General Motors</h4>
-                                    <h4 class="subheading">January 2015 - April 2015</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        I led a cross-functional team of 30 to make quick, data-driven decisions.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/portfolio/blackberry3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Marketing Analyst, Blackberry</h4>
-                                    <h4 class="subheading">September 2014 - December 2014</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        I analyzed and presented data for the recruitment team to identify growth opportunities and inform business strategy.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/portfolio/blackberry3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Software Developer, Blackberry</h4>
-                                    <h4 class="subheading">May 2014 - August 2014</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        I worked with a small team to build out the user requirements and information architecture for a product review site.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Contact Section -->
-<section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <br><br><br><br>
-                    <h2 class="section-heading">Connect</h2>
-                    <h3 class="section-subheading text-muted">Want to get in touch?</h3>
-                </div>
-            </div>
-            
-       <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class ="col-md-4" style = "padding-bottom: 50px">
-                        <br><br><br>
-              <!--          <img src="img/logos/leoyue.jpg" id = "profile-pic" class="img-circle img-responsive center-block"> -->
-                    </div>
-                    <div class="col-md-8">
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                        <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <h3><i class="fa fa-pencil-square-o fa-fw"></i> <span class="network-name">Email: </span></h3>
-                        </li>
-                        <li>
-                            <a href="mailto:leoyuetian@gmail.com"><p style = "font-size: 26px; margin-bottom: 0px; color: #fff"><i> leoyuetian@gmail.com</i></p></a>
-                        </li>
-                        <br>
-                    </ul> 
-                        <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-            
-            
-            
-            
-            
-           <!-- <div class="row text-center">
-                <div align="center" class="col-sm-4">
-                    <div align = "center" class="team-member">
-            <!--           <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">  -->
-              <!--      </div>
-                    </div>
-                    </div> -->
-
-
-                                        
-    </section>
-
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Leo Yue 2017.</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://ca.linkedin.com/in/leoyue" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Personal Website</h2>
-                            <p class="item-intro text-muted">Web Development</p>
-                     <!--       <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt=""> -->
-                            <p>My website designed as a hub for my personal and professional presence on the web. This project proved to be a great learning experience in terms of understanding HTML/CSS and UI design. There is a huge room for improvement and I intend to continue updating this website.</p>
-                       <!--     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Digital Footprint</h2>
-                            <p class="item-intro text-muted">Blackberry Hackathon</p>
-                 <!--           <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
-                            <p></p>A data analytics tool built with a team of 6 at the Blackberry Hackathon visualizing employees' server access and network trail. </p>
-                  <!--          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>UInfo</h2>
-                            <p class="item-intro text-muted">Database Project</p>
-                     <!--       <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
-                            <p>Created a database using SQL that stores information about different universities in Ontario.</p>
-                            <p><strong>Technologies used:</strong> SQL/PHP, HTML</p>
-                     <!--       <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-
-</body>
-
+	</body>
 </html>
